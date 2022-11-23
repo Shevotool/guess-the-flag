@@ -16,7 +16,8 @@
 }
 
 body {
-  background: url(../img/purple.png);
+  /*  background: url(../img/purple.png); */
+  background-color: #6d28d9;
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -110,9 +111,9 @@ body {
   border: 5px solid #fff;
 }
 
-.text1 {
+/* .text1 {
   color: #fff;
-}
+} */
 
 footer {
   position: absolute;
@@ -239,7 +240,8 @@ footer {
 
   .world {
     margin-top: 2rem;
-    height: 160px;
+    width: 120px;
+    height: 120px;
   }
 }
 
