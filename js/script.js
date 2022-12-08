@@ -1,17 +1,33 @@
 //cargo en un arreglo las imganes de las banderas. Este sera el orden que se mostrarán
-let banderas = ["pa.svg", "bo.svg", "ad.svg", "gb.svg", "na.svg"];
+let banderas = [
+  "ke.svg",
+  "bo.svg",
+  "ad.svg",
+  "gb.svg",
+  "na.svg",
+  "fi.svg",
+  "nz.svg",
+  "bb.svg",
+  "eg.svg",
+  "gt.svg",
+];
 
 //arreglo que guardara la opcion correcta
-let correcta = [2, 2, 1, 1, 0];
+let correcta = [2, 2, 1, 1, 0, 2, 1, 0, 2, 1];
 
 //arreglo que guardara los paises a mostrar en cada jugada
 let opciones = [];
 //cargo en el arreglo opciones las opciones a mostrar en cada jugada
-opciones.push(["SOUTH AFRICA", "SINGAPORE", "PANAMA"]);
+opciones.push(["SOUTH AFRICA", "JORDANIA", "KENIA"]);
 opciones.push(["PERU", "ITALY", "BOLIVIA"]);
-opciones.push(["TUNISIA", "ANDORRA", "ANTIGUA Y BARBUDA"]);
+opciones.push(["TUNISIA", "ANDORRA", "BARBADOS"]);
 opciones.push(["UKRAINE", "UNITED KINGDOM", "MADAGASCAR"]);
 opciones.push(["NAMIBIA", "OMAN", "ETHIOPIA"]);
+opciones.push(["POLAND", "SENEGAL", "FINLAND"]);
+opciones.push(["ENGLAND", "NEW ZEALAND", "AUSTRALIA"]);
+opciones.push(["BARBADOS", "HUNGARY", "JAPAN"]);
+opciones.push(["ETHIOPIA", "MOROCCO", "EGYPT"]);
+opciones.push(["EL SALVADOR", "GUATEMALA", "ARGENTINA"]);
 
 //variable que guarda la posicion actual
 let posActual = 0;
